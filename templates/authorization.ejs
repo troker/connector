@@ -1,0 +1,13 @@
+<!--Params-->
+<% layout('./layout/app') %>
+<% block('title', 'Authorization') %>
+<% block('naw_bar', '<a href="http://localhost:3000/start"><img id="main_logo" src="/images/logo.png"></a>') %>
+<!--HTML-->
+<div class="input-group" id="autoris_form">
+    <div class="well" id="for_box">
+        <p id="form_title">Авторизация</p>
+        <input type="text" class="form-control" id="user_name" placeholder="Username">
+        <input type="password" class="form-control" id="user_pass" placeholder="Password">
+        <button class="btn btn-success" id="login_act">Login</button>
+    </div>
+</div>
